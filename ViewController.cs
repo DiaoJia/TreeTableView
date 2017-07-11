@@ -1,6 +1,9 @@
 ﻿using System;
 
 using UIKit;
+using Foundation;
+using System.Collections.Generic;
+using TreeTableView.Models;
 
 namespace TreeTableView
 {
@@ -14,13 +17,23 @@ namespace TreeTableView
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            // Perform any additional setup after loading the view, typically from a nib.
-        }
 
-        public override void DidReceiveMemoryWarning()
-        {
-            base.DidReceiveMemoryWarning();
-            // Release any cached data, images, etc that aren't in use.
+            var plistPath = NSBundle.MainBundle.PathForResource("dataInfo", "plist");
+            var data = NSArray.FromFile(plistPath);
+
+            var treeNodes = new List<TreeNode>();
+
+            foreach (var item in NSArray.FromArray<NSDictionary>(data))
+            {
+               var id = item[(NSString)"id"].ToString();
+                var pid = item[(NSString)"pid"].ToString();
+                var name = item[(NSString)"name"].ToString();
+                var description = item[(NSString)"description"].ToString();
+                var node = new TreeNode(id,pid,name,description);               
+                treeNodes.Add(node);
+            }
+
+            this.lblTitle.Text = treeNodes.Count.ToString();
         }
     }
 }

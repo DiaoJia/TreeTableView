@@ -87,13 +87,18 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\icons.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\icons.xcassets\Image.imageset\Contents.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Models\" />
+    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Views\TreeNodeTableViewCell.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -106,6 +111,18 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\TreeNode.cs" />
+    <Compile Include="Models\TreeNodeHelper.cs" />
+    <Compile Include="Views\TreeNodeTableViewCell.cs" />
+    <Compile Include="Views\TreeNodeTableViewCell.designer.cs">
+      <DependentUpon>TreeNodeTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TreeTableViewSource.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tree_ec.png" />
+    <BundleResource Include="Resources\tree_ex.png" />
+    <BundleResource Include="dataInfo.plist" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
