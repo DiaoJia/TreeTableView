@@ -1,0 +1,12 @@
+/Users/shinetechxian/Documents/Demos/TreeTableView/bin/iPhoneSimulator/Debug/TreeTableView.exe
+/Users/shinetechxian/Documents/Demos/TreeTableView/bin/iPhoneSimulator/Debug/TreeTableView.pdb
+/Users/shinetechxian/Documents/Demos/TreeTableView/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/shinetechxian/Documents/Demos/TreeTableView/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
+/Users/shinetechxian/Documents/Demos/TreeTableView/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/shinetechxian/Documents/Demos/TreeTableView/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/tree_ec.png
+/Users/shinetechxian/Documents/Demos/TreeTableView/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/tree_ex.png
+/Users/shinetechxian/Documents/Demos/TreeTableView/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/dataInfo.plist
+/Users/shinetechxian/Documents/Demos/TreeTableView/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
+/Users/shinetechxian/Documents/Demos/TreeTableView/obj/iPhoneSimulator/Debug/TreeTableView.csproj.CoreCompileInputs.cache
+/Users/shinetechxian/Documents/Demos/TreeTableView/obj/iPhoneSimulator/Debug/TreeTableView.exe
+/Users/shinetechxian/Documents/Demos/TreeTableView/obj/iPhoneSimulator/Debug/TreeTableView.pdb
