@@ -118,6 +118,10 @@
     <Compile Include="CityTableViewController.designer.cs">
       <DependentUpon>CityTableViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\tree_ec.png" />

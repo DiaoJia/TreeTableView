@@ -8,6 +8,21 @@
 	<dict/>
 	<key>com.apple.ibtool.document.warnings</key>
 	<dict>
+		<key>13</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>13</string>
+				</array>
+				<key>message</key>
+				<string>“Navigation Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[UIStoryboard instantiateViewControllerWithIdentifier:].</string>
+				<key>type</key>
+				<string>IBUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
 		<key>9</key>
 		<array>
 			<dict>
