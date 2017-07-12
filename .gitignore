@@ -184,3 +184,5 @@ FakesAssemblies/
 *.ncrunchsolution
 /obj
 /bin
+
+*.userprefs

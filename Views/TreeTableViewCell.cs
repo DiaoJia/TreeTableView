@@ -13,7 +13,6 @@ namespace TreeTableView
 
         public void SetCell(string name, string description)
         {
-
             lblName.Text = name;
             lblDescription.Text = description;
         }
@@ -30,9 +29,7 @@ namespace TreeTableView
 
         public void SetViewBackgroundX(int level)
         {
-            var x = level * -10f;
-            var frame = new CGRect(x, this.ContentView.Frame.Y, this.ContentView.Frame.Width, this.ContentView.Frame.Height);
-            this.ContentView.Frame = frame;
+            this.imgViewX.Constant = level * 8f + 8f;
         }
 
         static TreeTableViewCell()
