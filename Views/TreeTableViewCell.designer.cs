@@ -19,6 +19,10 @@ namespace TreeTableView
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.NSLayoutConstraint imgViewX { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel lblDescription { get; set; }
 
         [Outlet]
@@ -30,6 +34,11 @@ namespace TreeTableView
             if (imgNodeIcon != null) {
                 imgNodeIcon.Dispose ();
                 imgNodeIcon = null;
+            }
+
+            if (imgViewX != null) {
+                imgViewX.Dispose ();
+                imgViewX = null;
             }
 
             if (lblDescription != null) {

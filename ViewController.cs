@@ -41,6 +41,8 @@ namespace TreeTableView
 			cityTableView.Source = new Views.TreeTableViewSource(nodes);
 			cityTableView.ReloadData();
 
+            cityTableView.TableFooterView = new UIView();
+
             this.View.Add(cityTableView);
 		}
     }
