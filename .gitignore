@@ -183,3 +183,5 @@ FakesAssemblies/
 *.ncrunchproject
 *.ncrunchsolution
 
+/obj
+/bin
