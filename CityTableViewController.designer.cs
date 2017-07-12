@@ -7,22 +7,15 @@
 using Foundation;
 using System;
 using System.CodeDom.Compiler;
+using UIKit;
 
 namespace TreeTableView
 {
-    [Register ("ViewController")]
-    partial class ViewController
+    [Register ("CityTableViewController")]
+    partial class CityTableViewController
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel lblTitle { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
-            if (lblTitle != null) {
-                lblTitle.Dispose ();
-                lblTitle = null;
-            }
         }
     }
 }
