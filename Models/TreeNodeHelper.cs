@@ -35,22 +35,19 @@ namespace TreeTableView.Models
 
         public List<TreeNode> ConvertDataToNode(List<TreeNode> nodes)
         {
-            var result = new List<TreeNode>();
-
             TreeNode n, m;
-
             for (int i = 0; i < nodes.Count; i++)
             {
                 n = nodes[i];
                 for (int j = i + 1; j < nodes.Count; j++)
                 {
                     m = nodes[j];
-                    if (m.Pid == n.Pid)
+                    if (m.Pid == n.Id)
                     {
                         n.Children.Add(m);
                         m.Parent = n;
                     }
-                    else
+                    else if(n.Pid == m.Id)
                     {
                         m.Children.Add(n);
                         n.Parent = m;
@@ -58,12 +55,12 @@ namespace TreeTableView.Models
                 }
             }
 
-            foreach (var item in result)
+            foreach (var item in nodes)
             {
                 SetNodeIcon(item);
             }
 
-            return result;
+            return nodes;
 
         }
 
@@ -81,7 +78,7 @@ namespace TreeTableView.Models
                 return;
             }
 
-            foreach (var item in nodes)
+            foreach (var item in node.Children)
             {
                 AddNode(nodes, item, defaultExpandLevel, currentLevel + 1);
             }
