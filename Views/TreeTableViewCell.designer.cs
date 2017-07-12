@@ -8,14 +8,14 @@ using Foundation;
 using System;
 using System.CodeDom.Compiler;
 
-namespace TreeTableView.Views
+namespace TreeTableView
 {
-    [Register ("TreeNodeTableViewCell")]
-    partial class TreeNodeTableViewCell
+    [Register ("TreeTableViewCell")]
+    partial class TreeTableViewCell
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIImageView imgIcon { get; set; }
+        UIKit.UIImageView imgNodeIcon { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -27,9 +27,9 @@ namespace TreeTableView.Views
 
         void ReleaseDesignerOutlets ()
         {
-            if (imgIcon != null) {
-                imgIcon.Dispose ();
-                imgIcon = null;
+            if (imgNodeIcon != null) {
+                imgNodeIcon.Dispose ();
+                imgNodeIcon = null;
             }
 
             if (lblDescription != null) {

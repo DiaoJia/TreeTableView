@@ -98,7 +98,7 @@
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
-    <InterfaceDefinition Include="Views\TreeNodeTableViewCell.xib" />
+    <InterfaceDefinition Include="Views\TreeTableViewCell.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -107,17 +107,17 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="ViewController.cs" />
-    <Compile Include="ViewController.designer.cs">
-      <DependentUpon>ViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="Models\TreeNode.cs" />
     <Compile Include="Models\TreeNodeHelper.cs" />
-    <Compile Include="Views\TreeNodeTableViewCell.cs" />
-    <Compile Include="Views\TreeNodeTableViewCell.designer.cs">
-      <DependentUpon>TreeNodeTableViewCell.cs</DependentUpon>
-    </Compile>
     <Compile Include="Views\TreeTableViewSource.cs" />
+    <Compile Include="Views\TreeTableViewCell.cs" />
+    <Compile Include="Views\TreeTableViewCell.designer.cs">
+      <DependentUpon>TreeTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CityTableViewController.cs" />
+    <Compile Include="CityTableViewController.designer.cs">
+      <DependentUpon>CityTableViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\tree_ec.png" />

@@ -1,14 +1,19 @@
 ﻿<Properties StartupConfiguration="{C108B33A-BAF6-44FD-BAB1-8FFBA79A757C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/TreeNodeTableViewCell.xib">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CityTableViewController.cs">
     <Files>
-      <File FileName="Views/TreeTableViewSource.cs" Line="38" Column="22" />
-      <File FileName="Views/TreeNodeTableViewCell.xib" />
+      <File FileName="Views/TreeTableViewSource.cs" Line="40" Column="13" />
+      <File FileName="Views/TreeTableViewCell.cs" Line="16" Column="47" />
+      <File FileName="Views/TreeTableViewCell.xib" />
+      <File FileName="Main.storyboard" />
+      <File FileName="CityTableViewController.cs" Line="28" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.TreeTableView PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8DB89758-1366-48A7-8945-463920C44C57" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/shinetechxian/Documents/Demos/TreeTableView/Views/TreeTableViewSource.cs" relfile="Views/TreeTableViewSource.cs" line="42" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="ViewController.cs" line="26" offsetX="512" offsetY="425" expression="data" liveUpdate="False" />

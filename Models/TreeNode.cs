@@ -16,7 +16,7 @@ namespace TreeTableView.Models
         public int? Level { get; set; }
         public bool IsExpand { get; set; } = false;
         public string Icon { get; set; }
-        public List<TreeNode> Children { get; set; }
+        public List<TreeNode> Children { get; set; } = new List<TreeNode>();
         public TreeNode Parent { get; set; }
 
         public TreeNode(string id, string pid, string name, string description)
