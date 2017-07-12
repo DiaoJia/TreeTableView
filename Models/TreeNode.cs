@@ -39,7 +39,7 @@ namespace TreeTableView.Models
 
         public bool IsParentExpand()
         {
-            return this.Parent == null ? false : !this.Parent.IsExpand;
+            return this.Parent == null ? false : this.Parent.IsExpand;
         }
 
         public int GetLevel()

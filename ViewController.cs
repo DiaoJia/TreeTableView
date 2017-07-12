@@ -32,13 +32,13 @@ namespace TreeTableView
 				treeNodes.Add(node);
 			}
 
-			var filterData = TreeNodeHelper.Instance.FilterVisibleNode(treeNodes);
+            var nodes = TreeNodeHelper.Instance.GetSortedNodes(treeNodes,0);
 
             var frame = new CoreGraphics.CGRect(0, 0, this.View.Frame.Width, this.View.Frame.Height - 20);
             var cityTableView = new UITableView(frame,UITableViewStyle.Plain);
 
 			cityTableView.RegisterNibForCellReuse(TreeTableViewCell.Nib, TreeTableViewCell.Key);
-			cityTableView.Source = new Views.TreeTableViewSource(filterData);
+			cityTableView.Source = new Views.TreeTableViewSource(nodes);
 			cityTableView.ReloadData();
 
             this.View.Add(cityTableView);

@@ -1,12 +1,8 @@
 ﻿<Properties StartupConfiguration="{C108B33A-BAF6-44FD-BAB1-8FFBA79A757C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/TreeTableViewCell.cs">
     <Files>
-      <File FileName="Views/TreeTableViewSource.cs" Line="57" Column="9" />
-      <File FileName="Views/TreeTableViewCell.cs" Line="16" Column="47" />
-      <File FileName="Views/TreeTableViewCell.xib" />
-      <File FileName="CityTableViewController.cs" Line="40" Column="10" />
-      <File FileName="Main.storyboard" />
-      <File FileName="ViewController.cs" Line="14" Column="9" />
+      <File FileName="Views/TreeTableViewSource.cs" Line="21" Column="33" />
+      <File FileName="Views/TreeTableViewCell.cs" Line="36" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.TreeTableView PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8DB89758-1366-48A7-8945-463920C44C57" />
