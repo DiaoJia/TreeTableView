@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{C108B33A-BAF6-44FD-BAB1-8FFBA79A757C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/TreeTableViewCell.xib">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/TreeNode.cs">
     <Files>
-      <File FileName="Views/TreeTableViewSource.cs" Line="37" Column="14" />
-      <File FileName="Views/TreeTableViewCell.cs" Line="34" Column="44" />
-      <File FileName="ViewController.cs" Line="34" Column="13" />
-      <File FileName="Views/TreeTableViewCell.xib" />
+      <File FileName="Views/TreeTableViewSource.cs" Line="32" Column="44" />
+      <File FileName="ViewController.cs" Line="35" Column="58" />
+      <File FileName="Models/TreeNodeHelper.cs" Line="13" Column="42" />
+      <File FileName="Models/TreeNode.cs" Line="16" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TreeTableView PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D5248C3A-D7BF-4611-9D20-87942C64A07E" />
+  <MonoDevelop.Ide.ItemProperties.TreeTableView PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8DB89758-1366-48A7-8945-463920C44C57" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

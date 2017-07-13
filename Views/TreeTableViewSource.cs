@@ -31,7 +31,7 @@ namespace TreeTableView.Views
 
             cell.SetViewBackgroundX(node.GetLevel());
 
-            if (node.Type == TreeNode.NODE_TYPE_G)
+			if (!node.LeafFlag)
             {
                 cell.SetIcon(node.Icon);
             }

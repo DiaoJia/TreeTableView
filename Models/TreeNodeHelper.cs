@@ -33,7 +33,7 @@ namespace TreeTableView.Models
             return result;
         }
 
-        public List<TreeNode> ConvertDataToNode(List<TreeNode> nodes)
+		private List<TreeNode> ConvertDataToNode(List<TreeNode> nodes)
         {
             TreeNode n, m;
             for (int i = 0; i < nodes.Count; i++)
@@ -64,7 +64,7 @@ namespace TreeTableView.Models
 
         }
 
-        public void AddNode(List<TreeNode> nodes, TreeNode node, int defaultExpandLevel, int currentLevel)
+		private void AddNode(List<TreeNode> nodes, TreeNode node, int defaultExpandLevel, int currentLevel)
         {
             nodes.Add(node);
 
@@ -85,7 +85,7 @@ namespace TreeTableView.Models
         }
 
 
-        public List<TreeNode> GetRootNodes(List<TreeNode> nodes)
+		private List<TreeNode> GetRootNodes(List<TreeNode> nodes)
         {
             var roots = new List<TreeNode>();
             foreach (var item in nodes)
@@ -99,16 +99,16 @@ namespace TreeTableView.Models
             return roots;
         }
 
-        public void SetNodeIcon(TreeNode node)
+		private void SetNodeIcon(TreeNode node)
         {
             if (node.Children.Count > 0)
             {
-                node.Type = TreeNode.NODE_TYPE_G;
+				node.LeafFlag = false;
                 node.Icon = node.IsExpand ? "tree_ex.png" : "tree_ec.png";
             }
             else
             {
-                node.Type = TreeNode.NODE_TYPE_N;
+				node.LeafFlag = true;
             }
         }
 
